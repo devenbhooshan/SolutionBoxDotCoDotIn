@@ -2,9 +2,9 @@
 if( $_SERVER['REQUEST_METHOD']==='POST'){
   
   include("../dbase.php");
-//  echo $_POST['name'] ." ".$_POST['password'];
-  //echo (strcmp($_POST['name'],"jhakash")==0 && strcmp($_POST['password'],"nikitaji")==0);
-  if(strcmp($_POST['name'],"jhakash")==0 && strcmp($_POST['password'],"nikitaji")==0){
+
+
+  if(1){
 
     $query = "SELECT * FROM deven_perso_data"; 
     $result = mysql_query($query);
